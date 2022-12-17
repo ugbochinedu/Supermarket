@@ -43,7 +43,7 @@ public class ShoppingPriceApp {
         String checkCondition;
         do {
             iteratePrompt();
-            checkCondition = scan.next();
+            checkCondition = scan.nextLine();
             if (checkCondition.equalsIgnoreCase("yes")){
                 prompt();
                 collectingUserChoice();
